@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Baughurst Repair Caf&eacute;</title>
+	<meta content="Repair Café" name="description"><meta content="Baughurst Repair Café Cafe" name="keywords"><!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon" />
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /><!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com" rel="preconnect" />
+	<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Allerta+Stencil:400" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&amp;display=swap" rel="stylesheet" /><!-- Vendor CSS Files -->
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" /><!-- Template Main CSS File -->
+	<link href="assets/css/style.css" rel="stylesheet" />
+	<!-- Suggest use Ti.To as event manager-->
+	<script src='https://js.tito.io/v2' async></script><!--<script src='https://js.tito.io/v2/with/inline/without/widget-css' async></script>-->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FHVWXFTTHQ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-FHVWXFTTHQ');
+	</script>
+	
+	
+<!-- =======================================================
+  * Base Template Name: Dewi - v4.7.0
+  * Developed for use as repair cafe template
+  * Lots of tuning by Andmore.consulting
+  ======================================================== -->
+</head>
+<body><!-- ======= Header ======= -->
+<header class="fixed-top " id="header">
+<div class="container d-flex align-items-center justify-content-between">
+<h1 class="logo" style="font-family: 'Allerta Stencil', sans-serif"><a href="index.html">BAUGHURST <span style="color:orange">REPAIR CAFE</span></a></h1>
+<!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+<div id="scroll-container"><!-- scroller text at top of page  - Change this every meeting-->
+	<div id="scroll-text" style=""><a href="#next-event" title="click here">Next Event 19th November</a></div>
+</div>
+
+	<nav class="navbar" id="navbar">
+	<ul>
+		<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+		<li><a class="nav-link scrollto" href="#about">About</a></li>
+		<li><a class="nav-link scrollto" href="#services">Services</a></li>
+		<li><a class="nav-link scrollto " href="#features">Location</a></li>
+		<li><a class="nav-link scrollto" href="#team">Team</a></li>
+		<!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          </li>-->
+		<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+		<li><a class="getstarted scrollto" href="#next-event">Book</a></li>
+		<!--<li><a class="getstarted scrollto" href="#about">Get Started</a></li>-->
+	</ul>
+		<i class="bi bi-list mobile-nav-toggle"></i>
+	</nav>
+<!-- .navbar -->
+</div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= opening page above the fold--><!-- css has background image -->
+
+<section id="hero">
+<div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+<h1>Baughurst<span style="font-family: 'Allerta Stencil', sans-serif;"> Repair Cafe</span></h1>
+
+<h2></h2>
+
+<h2>
+	<i class='bx bx-recycle' aria-hidden="true" style="color:green"></i> Repair 
+    <i class='bx bx-recycle' aria-hidden="true" style="color:orange"></i> Reuse 
+    <i class='bx bxs-heart' aria-hidden="true" style="color:red"></i> Relove
+</h2>
+
+<div class="d-flex"><a class="btn-get-started scrollto" href="#about">Find out more</a> <a class="btn-watch-video" href="https://www.youtube.com/watch?v=gVjU1ydAUlQ" target="_blank"><span>Watch Video</span></a>
+</div>
+<p id="timer"><br><br><br>Time to our <a href="#next-event">next event</a></p>
+
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("nov 19, 2023 10:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+    
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+    
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+       // Output the result in an element with id="timer"
+      //document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+      document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m ";
+    
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "Look out for the next one";
+        }
+      }, 1000);
+      </script>
+	 </div>
+</section>
+<!-- End Hero -->
+
+<main id="main"><!-- ======= Next Event Section  -  Update monthly======= -->
+<section id="next-event">
+<div class="container" data-aos="fade-up">
+	<div class="row">
+		<div class="col-lg-6">
+		<h2>Next Event</h2>
+
+		<p>Come along meet the team and show your support. Booking a spot will help us help you by understanding likely numbers and requirements.</p>
+		<tito-button event="baughurst-repair-cafe/baughurst-repair-cafe-1911">Reserve a place</tito-button>
+		</div>
+
+	<div class="col-lg-3">
+		<h3>Where</h3>
+		<a href="#location">Heath End Village Hall, Heath End Road, Baughurst, RG26 5LU</a>
+	</div>
+
+	<div class="col-lg-3">
+		<h3>When</h3>
+
+		<p>Date<br>19th November 2023<br />
+		Time: 10am - 1pm
+		<br></p>	
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<h3>Full Calendar</h3>
+            
+				<a href="https://calendar.google.com/calendar/u/0?cid=aW5mb0BiYXVnaHVyc3RyYy51aw" target="_blank" title="Subscribe">See the full list of upcoming events and subscribe to our calendar</a>
+			<p></p>
+		</div>
+	</div>
+</div>
+</section>
+<!-- End Next Event Section -->
+
+<!-- ======= About Section ======= -->
+
+<section class="about" id="about">
+<div class="container" data-aos="fade-up">
+<div class="section-title">
+<h2>About</h2>
+About <span> Repair Café</span>
+</div>
+<!--<p></p>
+</div>
+
+<div class="row justify-content-end">
+<div class="col-lg-11">
+<div class="row justify-content-end">
+<div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<p>Happy Clients (yet!)</p>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<p>Locations</p>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<p>Years of experience</p>
+</div>
+</div>-->
+<!--<div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-award"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Awards</p>
+                </div>
+              </div>-->
+<!--</div>
+</div>
+</div>-->
+
+<div class="row">
+	<div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100"><img alt="How Repair Cafe Works" class="img-fluid" height="auto" src="assets/img/how-repair-cafe-works.jpg" width="80%" /> <a href="https://www.youtube.com/watch?v=5zY_iv1_z4c" class="glightbox play-btn mb-4" target="_blank"></a>
+	</div>
+
+	<div class="col-lg-6 pt-3 pt-lg-0 content">
+		<h3>What is <span style="font-family: 'Allerta Stencil', sans-serif;">Repair Café?</span></h3>
+
+		<p class="fst-italic">We throw away vast amounts of stuff. Even things with almost nothing wrong, which could get a new lease on life after a simple repair. The trouble is lots of people have forgotten that they can repair things themselves or they no longer know how. Knowing how to make repairs is a skill quickly lost. Repair Café changes all that! People who might otherwise be sidelined are getting involved again. Valuable practical knowledge is getting passed on. Things are being used for longer and don't have to be thrown away. This reduces the volume of raw materials and energy needed to make new products. It cuts CO2 emissions, for example, because manufacturing new products causes CO2 to be released.</p>
+
+		<h3>Change mindsets</h3>
+
+		<ul>
+              <li><i class="bx bx-check-double"></i> Recycle</li>
+              <li><i class="bx bx-check-double"></i> Reuse</li>
+              <li><i class="bx bx-check-double"></i> Relove</li>
+              <li><i class="bx bx-check-double"></i> Help Save the Planet</li>
+        </ul>
+
+		<p><span style="font-family: 'Allerta Stencil', sans-serif;"><strong>Repair Café</strong></span> teaches people to see their possessions in a new light. And, once again, to appreciate their value. Repair Café helps change peoples mindset. This is essential to kindle peoples enthusiasm for a sustainable society. But most of all, Repair Café just wants to show how much fun repairing things can be, and how easy it often is. Why don't you give it a go?</p>
+	</div>
+</div>
+
+</section>
+<!-- End About Section -->
+
+<!-- ======= About Boxes Section ======= -->
+
+<section class="about-boxes" id="about-boxes">
+<div class="container" data-aos="fade-up">
+<div class="row">
+	<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+		<div class="card"><img alt="toaster repair" class="card-img-top" src="assets/img/about-boxes-toaster.jpg" />
+			<div class="card-icon">
+				<i class="ri-brush-4-line"></i>
+			</div>
+			<div class="card-body">
+				<h5 class="card-title"><a href="">Our Mission</a></h5>
+
+				<p class="card-text">To cultivate awareness of the bigger picture and of the pronounced impact reuse has on the environment, on personal well-being, and our community resiliency;<br />
+				To cultivate motivation to extend the life of the things we have through repair; and<br />
+				To cultivate the capacity to repair, through learning to fix things ourselves, or finding out how and where to have them repaired.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+		<div class="card"><img alt="repair cafe" class="card-img-top" src="assets/img/about-boxes-fix.jpg" />
+			<div class="card-icon">
+				<i class="ri-calendar-check-line"></i>
+			</div>
+
+			<div class="card-body">
+				<h5 class="card-title"><a href="">Our Plan</a></h5>
+
+				<p class="card-text">Introduce Repair Cafe locally. Extending and enhancing the current network of venues and dates.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+		<div class="card"><img alt="clothes repair" class="card-img-top" src="assets/img/about-boxes-clothes2.jpg" />
+			<div class="card-icon">
+				<i class="ri-movie-2-line"></i>
+			</div>
+
+			<div class="card-body">
+				<h5 class="card-title"><a href="">Our Vision</a></h5>
+
+				<p class="card-text">To bring practical, low cost, repairs to people. Extending the life of everyday objects.<br />
+				To reduce the amount of things going into landfill.<br />
+				To reduce the amount of new things we need to buy.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<!-- End About Boxes Section --><!-- ======= Clients Section  AKA supporting organisations======= -->
+
+<section class="clients" id="clients">
+<div class="section-title">
+	<h2>Suporters</h2>
+	<p>Organisations helping us</p>
+</div>
+<div class="container" data-aos="zoom-in">
+	<div class="row">
+		<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+        	<a href="https://www.baughurst-pc.gov.uk" target="_blank" title="Baughurst Parish Council"><img src="assets/img/clients/bpclogo-sml.jpg" class="img-fluid" alt="Baughurst Parish Council"> </a>
+    	</div>
+<!--<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"><!--<a href="https://www.hants.gov.uk/" target="_blank" title="Hampshire County Council"> <img src="assets/img/clients/hcc.png" class="img-fluid" alt="Hampshire County Council"></a>-->
+
+		<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"><a href="https://www.repaircafe.org/" target="_blank" title="Repair Café International"><img alt="Repair Café" class="img-fluid" src="assets/img/clients/RC-LogoSquare.png" /></a>
+		</div>
+		
+		<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://www.repaircafe.org/en/cafe/north-hampshire-repair-cafe/" target="_blank" title="Repair Café"><img src="assets/img/clients/logo.jpg" aria-hidden="true" class="img-fluid" alt="Repair Café"></a>
+		</div>
+
+	</div>
+</div>
+</section>
+<!-- End Clients Section -->
+
+<!-- ======= Location Section ======= -->
+
+<section class="features" id="features">
+<div class="container" data-aos="fade-up">
+	<div class="section-title">
+		<h2>Locations &amp; Events</h2>
+
+		<p>Where to find our events</p>
+	</div>
+
+<!--<ul class="nav nav-tabs row d-flex">
+	<li class="nav-item col-3">
+		<h4 class="d-none d-lg-block">Events & Location</h4>
+	</li>
+</ul>-->
+
+	<div class="row">
+		<div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+			<h3>Upcoming Events</h3>
+			<p>What's Happening Next</p>
+			<p class="fst-italic"></p>
+		<ul>
+			<li><i class="ri-check-double-line"></i><a href="https://ti.to/baughurst-repair-cafe/baughurst-repair-cafe-1911" target="_blank"> Sunday 19th November </a></li>			
+		<p><br>2024<br></p>
+			<li><i class="ri-check-double-line"></i><a href="https://ti.to/baughurst-repair-cafe/baughurst-repair-cafe-2101" target="_blank"> Sunday 21st January </a></li>
+			<li><a href="" target="_blank">Sunday 18th February</a></li>
+			<li><a href="" target="_blank">Sunday 17th March</a></li>
+			<li><a href="" target="_blank">Sunday 21st April</a></li>
+			<li><a href="" target="_blank">Sunday 19th May</a></li>
+			<li><a href="" target="_blank">Sunday 16th June</a></li>
+			<li><a href="" target="_blank">Sunday 21st July</a></li>
+			<li><a href="" target="_blank">Sunday 18th August</a></li>
+			<li><a href="" target="_blank">Sunday 15th September</a></li>
+			<li><a href="" target="_blank">Sunday 20th October</a></li>
+			<li><a href="" target="_blank">Sunday 17th November</a></li>
+		</ul>
+		</div>
+		<div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/HeathEndVillageHall.png" alt="Heath End Village Hall" class="img-fluid">
+                <p> Outside view of the location.</p>
+                
+        </div>
+	
+        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Heath End Village Hall</h3>
+				<p>A purpose built hall in the village of Baughurst.</p>
+				<p>Click on the image for directions.</p>
+				<a href="https://www.google.com/maps/place/Heath+End+Village+Hall/@51.3534418,-1.1758074,15.25z/data!4m7!3m6!1s0x4876a066f8b40283:0x28318b8ca1c5e42f!4b1!8m2!3d51.35441!4d-1.1672672!16s%2Fg%2F11b5pj0lq4?entry=ttu" target= "_blank"> <img src="assets/img/HeathEndVillageHall-map.png" alt="Baughurst Village Hall"></a>
+                <!--<iframe src="https://www.google.com/maps/place/Heath+End+Village+Hall/@51.3534418,-1.1758074,15.25z/data!4m7!3m6!1s0x4876a066f8b40283:0x28318b8ca1c5e42f!4b1!8m2!3d51.35441!4d-1.1672672!16s%2Fg%2F11b5pj0lq4?entry=ttu" width="640" height="480">
+				</iframe>-->
+                <p class="fst-italic">
+                  
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Level access.</li>
+                  <li><i class="ri-check-double-line"></i> Parking.</li>
+                  <li><i class="ri-check-double-line"></i> Cafe Facilities.</li>
+                </ul>
+                <p>             
+                </p>
+        </div>
+        <!--<div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/HeathEndVillageHall.png" alt="Heath End Village Hall" class="img-fluid">
+                <p> Outside view of the location. Directions available from Google maps.</p>
+                
+        </div>-->
+</div>
+</div>
+</section>
+<!-- End Features Section -->
+
+<!-- ======= Services Section ======= -->
+
+<section class="services section-bg" id="services">
+<div class="container" data-aos="fade-up">
+<div class="section-title">
+<h2>Services</h2>
+
+<p>Our Services</p>
+</div>
+
+<div class="row" data-aos="fade-up" data-aos-delay="200">
+<div class="col-md-6">
+<div class="icon-box">
+<h4><a href="#">Computers</a></h4>
+
+<p>Fault analysis on Computers. Simple repairs to laptops, desktops, tablets.</p>
+</div>
+</div>
+
+<div class="col-md-6 mt-4 mt-md-0">
+<div class="icon-box">
+<h4><a href="#">Small Electrical Appliances</a></h4>
+
+<p>Fault analysis and repair on things from coffee makers to toasters.</p>
+</div>
+</div>
+
+<div class="col-md-6 mt-4 mt-md-0">
+<div class="icon-box">
+<h4><a href="#">Clothes</a></h4>
+
+<p>Simple repairs on clothes</p>
+</div>
+</div>
+
+<div class="col-md-6 mt-4 mt-md-0">
+<div class="icon-box">
+<h4><a href="#">Furniture</a></h4>
+
+<p>Fixes and repairs on small items of furniture.</p>
+</div>
+</div>
+
+<div class="col-md-6 mt-4 mt-md-0">
+<div class="icon-box">
+<h4><a href="#">Garden Tools</a></h4>
+
+<p>Sharpen tweak and fettle.</p>
+</div>
+</div>
+
+<div class="col-md-6 mt-4 mt-md-0">
+<div class="icon-box">
+<h4><a href="#">Toys</a></h4>
+
+<p>Simple repairs for old and modern toys.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- End Services Section --><!-- ======= Testimonials Section ======= --><!--<section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  What a wonderful idea
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item --><!--<div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item --><!--<div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item --><!--<div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item --><!--<div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item --><!--</div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section --><!-- ======= Portfolio Section ======= -->
+
+<section class="portfolio" id="portfolio">
+<div class="container" data-aos="fade-up">
+<div class="section-title">
+<h2>Portfolio</h2>
+
+<p>Check our Portfolio - pictures coming soon</p>
+</div>
+
+<div class="row" data-aos="fade-up" data-aos-delay="100">
+<!--<div class="col-lg-12 d-flex justify-content-center">
+<ul id="portfolio-flters">
+	<li class="filter-active" data-filter="*">All</li>
+	<li data-filter=".filter-app">App</li>
+	<li data-filter=".filter-card">Card</li>
+	<li data-filter=".filter-web">Web</li>
+</ul>
+</div>-->
+</div>
+
+<!--<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+<div class="col-lg-4 col-md-6 portfolio-item filter-app"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-1.jpg" />
+<div class="portfolio-info">
+<h4>App 1</h4>
+
+<p>App</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-web"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-2.jpg" />
+<div class="portfolio-info">
+<h4>Web 3</h4>
+
+<p>Web</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-app"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-3.jpg" />
+<div class="portfolio-info">
+<h4>App 2</h4>
+
+<p>App</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-card"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-4.jpg" />
+<div class="portfolio-info">
+<h4>Card 2</h4>
+
+<p>Card</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-web"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-5.jpg" />
+<div class="portfolio-info">
+<h4>Web 2</h4>
+
+<p>Web</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-app"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-6.jpg" />
+<div class="portfolio-info">
+<h4>App 3</h4>
+
+<p>App</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-card"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-7.jpg" />
+<div class="portfolio-info">
+<h4>Card 1</h4>
+
+<p>Card</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-card"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-8.jpg" />
+<div class="portfolio-info">
+<h4>Card 3</h4>
+
+<p>Card</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-web"><img alt="" class="img-fluid" src="assets/img/portfolio/portfolio-9.jpg" />
+<div class="portfolio-info">
+<h4>Web 3</h4>
+
+<p>Web</p>
+</div>
+</div>
+</div>-->
+</div>
+</section>
+<!-- End Portfolio Section -->
+
+<!-- ======= Team Section ======= -->
+
+<section class="team section-bg" id="team">
+<div class="container" data-aos="fade-up">
+<div class="section-title">
+<h2>Team</h2>
+
+<p>Check out our Team</p>
+</div>
+
+<div class="row">
+<div class="col-lg-2 col-md-4">
+<div class="member" data-aos="fade-up" data-aos-delay="100">
+<div class="pic"><img alt="Rosemarie" class="img-fluid" src="assets/img/team/brc-rosemarie-nb.png" /></div>
+
+<div class="member-info">
+<h4>Rosemarie</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Joe" class="img-fluid" src="assets/img/team/brc-joe-nb.png" loading="lazy" /></div>
+
+<div class="member-info">
+<h4>Joe</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="" class="img-fluid" src="assets/img/team/brc-alan-nb.png" /></div>
+
+<div class="member-info">
+<h4>Alan</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="brenda" class="img-fluid" src="assets/img/team/brc-brenda-nb.png" /></div>
+
+<div class="member-info">
+<h4>Brenda</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Colin" class="img-fluid" src="assets/img/team/brc-colin-nb.png" /></div>
+
+<div class="member-info">
+<h4>Colin</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Dave" class="img-fluid" src="assets/img/team/brc-dave-nb.png" /></div>
+
+<div class="member-info">
+<h4>Dave</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="" class="img-fluid" src="assets/img/team/brc-jean-nb.png" /></div>
+
+<div class="member-info">
+<h4>Jean</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Jill" class="img-fluid" src="assets/img/team/brc-jill-nb.png" /></div>
+
+<div class="member-info">
+<h4>Jill</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="" class="img-fluid" src="assets/img/team/brc-eileen-nb.png" /></div>
+
+<div class="member-info">
+<h4>Eileen</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Lou" class="img-fluid" src="assets/img/team/brc-lou-nb.png" /></div>
+
+<div class="member-info">
+<h4>Lou</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="" class="img-fluid" src="assets/img/team/brc-nb.png" /></div>
+
+<div class="member-info">
+<h4></h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Neal" class="img-fluid" src="assets/img/team/brc-neal-nb.png" /></div>
+
+<div class="member-info">
+<h4>Neal</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Russ" class="img-fluid rounded" src="assets/img/team/brc-russ-nb.png" /></div>
+
+<div class="member-info">
+<h4>Russ</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="member">
+<div class="pic"><img alt="Simon" class="img-fluid rounded" src="assets/img/team/brc-simon-nb.png" /></div>
+
+<div class="member-info">
+<h4>Simon</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+<div class="member">
+<div class="pic"><img alt="Sue" class="img-fluid rounded" src="assets/img/team/brc-sue-nb.png" /></div>
+
+<div class="member-info">
+<h4>Sue</h4>
+<span></span>
+
+<div class="social">   </div>
+</div>
+</div>
+</div>
+
+ <div class="col-lg-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/blank1.png" class="img-fluid rounded" alt="New Person"></div>
+              <div class="member-info">
+                <h4>This could be you</h4>
+                <span>We're looking for volunteers.</span><br>
+                <div class="social">
+                   <!-- Trigger/Open The Modal -->
+                      <button id="modalbutton">Why Volunteer?</button>
+
+                      <!-- The Modal -->
+                      <div id="myModal" class="modal">
+
+                       <!-- Modal content -->
+                        <div class="modal-content">
+                          <span class="close">X</span>
+                            <p>From 2016 Survey <br> 
+                            The top four reasons why respondents volunteer/participate at Repair Cafés were:<br>
+                            - To encourage others to live more sustainably<br>
+                            - To encourage others to repair <br>
+                            - To provide a valuable service to the community <br>
+                            and we like to include having fun among a group of like minded individuals.<br>
+                            - To be a part of the movement to improve product reparability and longevity</p>
+                        </div>
+
+                      </div> 
+                  <!--<a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+</div>
+</div>
+</section>
+<!-- End Team Section -->
+<!-- ======= Contact Section ======= -->
+
+<section class="contact" id="contact">
+<div class="container" data-aos="fade-up">
+<div class="section-title">
+<h2>Contact</h2>
+
+<p>Contact Us</p>
+</div>
+
+<div class="row">
+<div class="col-lg-6">
+<div class="row"><!--<div class="col-md-12">
+              <div class="info-box">
+                <i class="bx bx-map"></i>
+                <h3>Our Address</h3>
+<p>Heath End Village Hall,</p> 
+                <p>Heath End Rd, Baughurst, Tadley RG26 5LX</p>
+              </div>
+            </div>-->
+	<div class="col-md-12">
+		<div class="info-box mt-4">
+			<h3>Email Us</h3>
+
+			<p>email address:</p>
+			info@baughurstrc.uk
+		</div>
+	</div>
+<!--<div class="col-md-6">
+              <div class="info-box mt-4">
+                <i class="bx bx-phone-call"></i>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+              </div>
+            </div>-->
+</div>
+</div>
+
+<div class="col-lg-6 mt-4 mt-lg-0">
+<form action="forms/contact.php" class="php-email-form" method="post" role="form">
+<div class="row">
+<div class="col-md-6 form-group"><input class="form-control" id="name" name="name" placeholder="Your Name" required="" type="text" /></div>
+
+<div class="col-md-6 form-group mt-3 mt-md-0"><input class="form-control" id="email" name="email" placeholder="Your Email" required="" type="email" /></div>
+</div>
+
+<div class="form-group mt-3"><input class="form-control" id="subject" name="subject" placeholder="Subject" required="" type="text" /></div>
+
+<div class="form-group mt-3"><textarea class="form-control" name="message" placeholder="Message" required="" rows="5"></textarea></div>
+
+<div class="my-3">
+<div class="loading">Loading</div>
+
+<div class="error-message"></div>
+
+<div class="sent-message">Your message has been sent. Thank you!</div>
+</div>
+
+<div class="text-center"><button type="submit">Send Message</button></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- End Contact Section --></main>
+<!-- End #main --><!-- ======= Footer ======= -->
+
+<footer id="footer">
+<div class="footer-top">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6">
+<div class="footer-info">
+<h3>Baughurst Repair Caf&eacute;</h3>
+
+<p><strong>Email:</strong> info@baughurstrc.uk</p>
+
+<div class="social-links mt-3">
+<!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+<!--<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
+<a href="https://www.facebook.com/profile.php?id=61550121630444" class="facebook"><i class="bx bxl-facebook"></i></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-6 footer-links">
+<h4>Useful Links</h4>
+
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#about">About us</a></li>
+	<li><a href="#services">Services</a></li>
+	<li><a href="#">Terms of service</a></li>
+	<li><a href="#">Privacy policy</a></li>
+</ul>
+</div>
+<!--<div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>-->
+
+<div class="col-lg-4 col-md-6 footer-newsletter">
+<h4>Our Newsletter</h4>
+
+<p>Sign up for regular updates</p>
+
+<form action="" method="post"><input name="email" type="email" /><input type="submit" value="Subscribe" /></form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="copyright">&copy; Copyright 2023<strong><span>Baughurst Repair Cafe</span></strong>. All Rights Reserved</div>
+</div>
+</footer>
+<!-- End Footer -->
+
+<div id="preloader"></div>
+<!-- Vendor JS Files --><script src="assets/vendor/purecounter/purecounter.js"></script><script src="assets/vendor/aos/aos.js"></script><script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="assets/vendor/glightbox/js/glightbox.min.js"></script><script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script><script src="assets/vendor/swiper/swiper-bundle.min.js"></script><script src="assets/vendor/php-email-form/validate.js"></script><!-- Template Main JS File --><script src="assets/js/main.js"></script>
+
+</body>
+</html>
